@@ -1,0 +1,51 @@
+Todo app :-----------
+
+project setup : Done
+setup express server : Done
+mongodb connection : Done
+
+setup EJS : Done
+
+registration page : Done
+login page : Done
+
+User Existence : Done
+Password Encryption : Done
+
+register API : Done
+login API : Done
+
+
+session base authentication : Done
+middleware to protect the API's
+
+redirect to api : Done
+
+Dashboard Page : Done
+logout : Done
+logout from all devices : Done (small doubt)
+
+todo API's:--------
+==============================practice pending================================
+create API : Done
+read API : Done
+edit API : Done
+delete API : Done
+
+Dashboard Client (axios) fetch :------
+==============================practice pending================================
+axios create API : Done
+axios read API : Done
+axios edit API : Done
+axios delete API : Done
+
+
+==============================practice pending================================
+Pagination of API's : Done
+Deploy server
+
+
+
+Ratelimiting
+
+email base auth (jwt)

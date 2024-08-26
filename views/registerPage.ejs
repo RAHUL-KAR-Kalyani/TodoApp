@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Register Page </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: skyblue;
+            margin-top: 20px;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .container {
+            position: relative;
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+
+        .row{
+            padding: 20px 0 30px 0;
+            background-color:darksalmon
+        }
+
+        input,
+        .btn {
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            margin: 5px 0;
+            opacity: 0.85;
+            display: inline-block;
+            font-size: 17px;
+            line-height: 20px;
+            text-decoration: none;
+        }
+        
+
+        input:hover,
+        .btn:hover {
+            opacity: 1;
+        }
+
+        button {
+            background-color: #04AA6D;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <h2>Register Form</h2>
+    </center>
+
+    <div class="container">
+        <form action="/register" method="POST">
+            <div class="row">
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name"><br/>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email"><br/>
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username"><br/>
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password"><br/>
+                <button class="btn" type="submit">Register</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
